@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv"
+        ></ListView>
+
+    <com.slide.qq.com.fastindex.widgets.QuickIndexBar
+        android:id="@+id/qib"
+        android:layout_width="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="match_parent"
+        android:background="#FF0000" />
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:text="A"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/shape_bg_index"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
