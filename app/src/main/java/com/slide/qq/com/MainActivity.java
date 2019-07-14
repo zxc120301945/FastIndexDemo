@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.Window;
 
 import com.slide.qq.com.fastindex.DemoActivity;
+import com.slide.qq.com.specialeffects.Demo2Activity;
+import com.slide.qq.com.swipelayout.Demo3Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,5 +25,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.btn2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Demo2Activity.class));
+            }
+        });
+        findViewById(R.id.btn3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Demo3Activity.class));
+            }
+        });
     }
 }

@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".fastindex.DemoActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".specialeffects.Demo2Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".swipelayout.Demo3Activity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
